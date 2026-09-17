@@ -45,6 +45,7 @@ authors:
     affiliation: >-
       Hebei Key Laboratory of Strategic Critical Mineral Resources, Hebei GEO
       University, Shijiazhuang, China
+repository-code: 'https://github.com/yupenglee2006-ui/anchored-tpp-reproducibility'
 repository-artifact: 'https://doi.org/10.5281/zenodo.22668675'
 references:
   - type: article
