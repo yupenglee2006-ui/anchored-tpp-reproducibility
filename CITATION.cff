@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+title: >-
+  Anchored Targeted Projection Pursuit — reference implementation and
+  reproduction package
+message: >-
+  If you use this software, please cite both the software (this record) and
+  the accompanying article.
+type: software
+version: 3.2.0
+license: MIT
+abstract: >-
+  Reference implementation of anchored targeted projection pursuit (anchored
+  TPP), a closed-form, hyperparameter-free method for hypothesis-driven quality
+  control of multivariate geochemical data from a small set of analyst-selected
+  anchor samples. Includes the fully synthetic XRF core-scan benchmark
+  generator, the semi-synthetic experiment pipeline, comparison baselines
+  (PCA, single-element rules, MCD, isolation forest, one-class SVM, positive
+  unlabeled logistic regression), and scripts reproducing every figure and
+  reported value in the accompanying article.
+keywords:
+  - projection pursuit
+  - geochemical data quality control
+  - mineral exploration
+  - XRF core scanning
+  - compositional data analysis
+  - anomaly detection
+  - orthogonal Procrustes
+authors:
+  - given-names: Yupeng
+    family-names: Li
+    email: yupeng.li@aramcoasia.com
+    affiliation: >-
+      Beijing Research Center, Upstream Advanced Research Center, Saudi Aramco,
+      Beijing, China
+    orcid: 'https://orcid.org/0000-0003-3611-7617'
+  - given-names: Saeed S.
+    family-names: Shahrani
+    email: saeed.shahrani.20@aramco.com
+    affiliation: >-
+      Geological Operation Department, EXPEC, Saudi Aramco, Dhahran, Saudi
+      Arabia
+  - given-names: Zhaoxian
+    family-names: Yuan
+    email: yuanzhaoxian@hgu.edu.cn
+    affiliation: >-
+      Hebei Key Laboratory of Strategic Critical Mineral Resources, Hebei GEO
+      University, Shijiazhuang, China
+repository-artifact: 'https://doi.org/10.5281/zenodo.22668675'
+references:
+  - type: article
+    title: >-
+      Anchored Targeted Projection Pursuit: Hypothesis-Driven Quality Control
+      of Multivariate Geochemical Data from Sparse Analyst Anchors
+    authors:
+      - given-names: Yupeng
+        family-names: Li
+      - given-names: Saeed S.
+        family-names: Shahrani
+      - given-names: Zhaoxian
+        family-names: Yuan
+    journal: Journal of Geo-Energy and Environment
+    year: 2026
+    notes: Submitted.
+  - type: article
+    title: Geochemical facies analysis using unsupervised machine learning
+    authors:
+      - given-names: Brendon
+        family-names: Hall
+    journal: CSEG Recorder
+    year: 2018
+    notes: >-
+      Source of the cuttings XRF dataset used by the semi-synthetic
+      experiments. Not redistributed in this archive.

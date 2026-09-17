@@ -1,0 +1,15 @@
+# Core engine (atpp.core, atpp.benchmark, atpp.protocol, atpp.compositional)
+numpy>=1.22
+
+# Figures and experiment scripts
+matplotlib>=3.5
+
+# Comparison baselines (atpp.baselines: one-class SVM, PU, isolation forest, MCD)
+scikit-learn>=1.1
+
+# Semi-synthetic experiments only (semisynth.py, exp_real_semisup.py)
+pandas>=1.4
+scipy>=1.8
+
+# Test suite only
+pytest>=7.0

@@ -1,0 +1,37 @@
+{
+  "title": "Anchored Targeted Projection Pursuit — reference implementation and reproduction package",
+  "description": "<p>Reference implementation of <strong>anchored targeted projection pursuit (anchored TPP)</strong>, a closed-form, hyperparameter-free method for hypothesis-driven quality control of multivariate geochemical data from a small set of analyst-selected anchor samples.</p><p>The archive contains the NumPy core engine, the fully synthetic XRF core-scan benchmark generator, the semi-synthetic experiment pipeline, comparison baselines (PCA, single-element rules, minimum covariance determinant, isolation forest, one-class SVM, positive&ndash;unlabeled logistic regression), a 25-test suite, and one script per reported result.</p><p>Supplementary material for the article &quot;Anchored Targeted Projection Pursuit: Hypothesis-Driven Quality Control of Multivariate Geochemical Data from Sparse Analyst Anchors&quot;, submitted to the <em>Journal of Geo-Energy and Environment</em> (ICCK).</p><p><strong>Note on data:</strong> the semi-synthetic experiments require the published cuttings XRF dataset of Hall, B. (2018), <em>CSEG Recorder</em>. That dataset is third-party and is <strong>not</strong> redistributed here; it must be obtained from its original source. A synthetic stand-in generator is provided so the pipeline can be exercised without it.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "3.2.0",
+  "language": "eng",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Li, Yupeng",
+      "affiliation": "Beijing Research Center, Upstream Advanced Research Center, Saudi Aramco, Beijing, China",
+      "orcid": "0000-0003-3611-7617"
+    },
+    {
+      "name": "Shahrani, Saeed S.",
+      "affiliation": "Geological Operation Department, EXPEC, Saudi Aramco, Dhahran, Saudi Arabia"
+    },
+    {
+      "name": "Yuan, Zhaoxian",
+      "affiliation": "Hebei Key Laboratory of Strategic Critical Mineral Resources, Hebei GEO University, Shijiazhuang, China"
+    }
+  ],
+  "keywords": [
+    "projection pursuit",
+    "targeted projection pursuit",
+    "geochemical data quality control",
+    "mineral exploration",
+    "XRF core scanning",
+    "compositional data analysis",
+    "centred log-ratio",
+    "anomaly detection",
+    "orthogonal Procrustes",
+    "semi-supervised learning"
+  ],
+  "notes": "Add the article DOI as an isSupplementTo related identifier once the paper is accepted."
+}

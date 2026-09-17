@@ -1,0 +1,131 @@
+{
+ "headline": {
+  "tpp": 11,
+  "ba": 0,
+  "pca": 0,
+  "loadings": {
+   "Cl": 0.856,
+   "Ba": 0.411,
+   "K": 0.216,
+   "Sr": 0.123,
+   "S": -0.092,
+   "Nb": -0.077
+  }
+ },
+ "invariance": {
+  "recovery_over_omega_bg": [
+   13
+  ],
+  "max_dev_omega_bg": 0.0,
+  "max_dev_rho": 6.245004513516506e-16,
+  "iterative_ls_recovery": [
+   13,
+   13,
+   13,
+   14,
+   14,
+   14,
+   13
+  ],
+  "iterative_ls_cos": [
+   0.743,
+   0.74,
+   0.732,
+   0.713,
+   0.666,
+   0.568,
+   0.413
+  ],
+  "centroid_cos_mean": 0.9998,
+  "centroid_cos_sd": 0.0002
+ },
+ "spatial": {
+  "iid": {
+   "spread": 8.88,
+   "spread_se": 0.34,
+   "clustered": 9.69,
+   "clustered_se": 0.27,
+   "diff": -0.81,
+   "diff_se": 0.43
+  },
+  "0.70": {
+   "spread": 7.46,
+   "spread_se": 0.42,
+   "clustered": 6.05,
+   "clustered_se": 0.44,
+   "diff": 1.41,
+   "diff_se": 0.61
+  },
+  "0.85": {
+   "spread": 5.94,
+   "spread_se": 0.46,
+   "clustered": 5.25,
+   "clustered_se": 0.48,
+   "diff": 0.69,
+   "diff_se": 0.66
+  },
+  "0.95": {
+   "spread": 5.19,
+   "spread_se": 0.57,
+   "clustered": 3.81,
+   "clustered_se": 0.52,
+   "diff": 1.38,
+   "diff_se": 0.77
+  }
+ },
+ "single_element": [
+  {
+   "cl_natural_sd": 0.0,
+   "strength": 1.0,
+   "Ba": 0.8,
+   "anchor1e": 12.6,
+   "oracle1e": 12.6,
+   "TPP": 8.9,
+   "PU": 10.8
+  },
+  {
+   "cl_natural_sd": 0.7,
+   "strength": 1.5,
+   "Ba": 0.3,
+   "anchor1e": 8.6,
+   "oracle1e": 8.6,
+   "TPP": 7.4,
+   "PU": 11.6
+  },
+  {
+   "cl_natural_sd": 1.0,
+   "strength": 1.5,
+   "Ba": 0.3,
+   "anchor1e": 4.3,
+   "oracle1e": 6.0,
+   "TPP": 6.0,
+   "PU": 11.6
+  },
+  {
+   "cl_natural_sd": 1.0,
+   "strength": 2.0,
+   "Ba": 0.1,
+   "anchor1e": 8.2,
+   "oracle1e": 8.5,
+   "TPP": 8.8,
+   "PU": 12.3
+  },
+  {
+   "cl_natural_sd": 1.4,
+   "strength": 2.0,
+   "Ba": 0.1,
+   "anchor1e": 1.6,
+   "oracle1e": 6.2,
+   "TPP": 7.2,
+   "PU": 12.2
+  }
+ ],
+ "natural_sd": {
+  "Si": 1.591,
+  "K": 1.596,
+  "Ba": 1.146,
+  "S": 0.894,
+  "Cl": 0.342,
+  "Na": 0.355
+ }
+}
